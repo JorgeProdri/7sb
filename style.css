@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+}
+
+section{
+    display: flex;
+    width: 1200px;
+    height: 600px;
+}
+section div{
+    width: 0;
+    flex-grow: cover;
+    object-fit: 500ms ease;
+    opacity: 0.8;
+}
+
+.Aether{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/aether.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Lumine{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/lumine.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Venti{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/venti.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Zhonly{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/zhongli.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Shougun{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/ei.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Nahida{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/nahida.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section div:hover{
+    width: 300%;
+    opacity:  1;
+    filter: contrast(150%);
+}
